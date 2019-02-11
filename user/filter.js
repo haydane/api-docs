@@ -1,14 +1,6 @@
 /**
- * @api {get} /user/:id Request User information
- * @apiParamExample {json} Request-Example:
- *     {
- *       "id":1
- *     }
- * @apiName GetUser
+ * @api {get} /user/:id Filter User
+ * @apiName FilterUserById
  * @apiGroup User
- *
- * @apiParam {Number} id Users unique ID.
- *
- * @apiSuccess {String} firstname Firstname of the User.
- * @apiSuccess {String} lastname  Lastname of the User.
+ * @apiSampleRequest https://api.github.com/users/1
  */
